@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\P2PokerBean\P2PokerBean.csproj" />
+      <ProjectReference Include="..\P2PokerContext\P2PokerContext.csproj" />
+      <ProjectReference Include="..\P2PokerDAO\P2PokerDAO.csproj" />
+      <ProjectReference Include="..\P2pokerInterface\P2pokerInterface.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="P2PokerRepository">
+        <HintPath>..\P2PokerSingleton\bin\Debug\net6.0\P2PokerRepository.dll</HintPath>
+      </Reference>
+      <Reference Include="P2PokerSingleton">
+        <HintPath>..\P2PokerSingleton\bin\Debug\net6.0\P2PokerSingleton.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "P2PokerAbstracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/P2PokerAbstracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P2PokerAbstracts.dll": {}
+        }
+      },
+      "P2PokerCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "P2PokerAbstracts": "1.0.0",
+          "P2PokerEnums": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/P2PokerCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P2PokerCore.dll": {}
+        }
+      },
+      "P2PokerEnums/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/P2PokerEnums.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P2PokerEnums.dll": {}
+        }
+      },
+      "P2pokerInterface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "P2PokerStruct": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/P2pokerInterface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P2pokerInterface.dll": {}
+        }
+      },
+      "P2PokerStruct/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "P2PokerCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/P2PokerStruct.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P2PokerStruct.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P2PokerAbstracts/1.0.0": {
+      "type": "project",
+      "path": "../P2PokerAbstracts/P2PokerAbstracts.csproj",
+      "msbuildProject": "../P2PokerAbstracts/P2PokerAbstracts.csproj"
+    },
+    "P2PokerCore/1.0.0": {
+      "type": "project",
+      "path": "../P2PokerCore/P2PokerCore.csproj",
+      "msbuildProject": "../P2PokerCore/P2PokerCore.csproj"
+    },
+    "P2PokerEnums/1.0.0": {
+      "type": "project",
+      "path": "../P2PokerEnums/P2PokerEnums.csproj",
+      "msbuildProject": "../P2PokerEnums/P2PokerEnums.csproj"
+    },
+    "P2pokerInterface/1.0.0": {
+      "type": "project",
+      "path": "../P2pokerInterface/P2pokerInterface.csproj",
+      "msbuildProject": "../P2pokerInterface/P2pokerInterface.csproj"
+    },
+    "P2PokerStruct/1.0.0": {
+      "type": "project",
+      "path": "../P2PokerStruct/P2PokerStruct.csproj",
+      "msbuildProject": "../P2PokerStruct/P2PokerStruct.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "P2pokerInterface >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mauri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\P2PokerDAO\\P2PokerDAO.csproj",
+      "projectName": "P2PokerDAO",
+      "projectPath": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\P2PokerDAO\\P2PokerDAO.csproj",
+      "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
+      "outputPath": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\P2PokerDAO\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\P2pokerInterface\\P2pokerInterface.csproj": {
+              "projectPath": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\P2pokerInterface\\P2pokerInterface.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

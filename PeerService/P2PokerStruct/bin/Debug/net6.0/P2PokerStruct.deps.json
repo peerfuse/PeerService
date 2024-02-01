@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "P2PokerStruct/1.0.0": {
+        "dependencies": {
+          "P2PokerCore": "1.0.0"
+        },
+        "runtime": {
+          "P2PokerStruct.dll": {}
+        }
+      },
+      "P2PokerAbstracts/1.0.0": {
+        "runtime": {
+          "P2PokerAbstracts.dll": {}
+        }
+      },
+      "P2PokerCore/1.0.0": {
+        "dependencies": {
+          "P2PokerAbstracts": "1.0.0",
+          "P2PokerEnums": "1.0.0"
+        },
+        "runtime": {
+          "P2PokerCore.dll": {}
+        }
+      },
+      "P2PokerEnums/1.0.0": {
+        "runtime": {
+          "P2PokerEnums.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P2PokerStruct/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "P2PokerAbstracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "P2PokerCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "P2PokerEnums/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
