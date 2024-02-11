@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WnSQgmxuSTYeBSMtSvhV+bi/9hFpeZADuwQuU+jnUbReKYBtccHtfT35tCpLY9BvgB+cY4Fw7CuU5iyKmFXn2A==",
+  "dgSpecHash": "rD5sew82MCUVcaxmph5lggIx3XPgWbuE3YwB1NNWbHk8qpWzl2QwCmiVHX8kzca2kw2s5g9twPFJKIYfhMZxzg==",
   "success": true,
-  "projectFilePath": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\PeerFuseCore\\PeerFuseCore.csproj",
+  "projectFilePath": "/mnt/0EDEAFDCDEAFB9FB/Azure Projects/Git/PeerFuse/PeerService/PeerFuseCore/PeerFuseCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

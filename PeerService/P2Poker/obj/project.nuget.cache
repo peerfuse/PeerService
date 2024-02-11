@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F4kbTnX8Q6ZcBJsoYjCIoGOoaret3PM44trm/rkS7EdUlAgZzHGk4A/t58pryzqT1JMjAdQsi70yoiB1f3qcTg==",
+  "dgSpecHash": "A3wPydNmPLpBikOJChgT1cjSMty8fIB6gG353J9ozU4W58YnH4cYmRgTmwLm6fg844AT9wF+Bt61cd+pKJ0D+g==",
   "success": true,
-  "projectFilePath": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\P2Poker\\P2Poker.csproj",
+  "projectFilePath": "/mnt/0EDEAFDCDEAFB9FB/Azure Projects/Git/PeerFuse/PeerService/P2Poker/P2Poker.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

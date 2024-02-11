@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hpJo+hpIpmhsHMNNbxsIqu7smipEnmXDnPLLNGHLyEqpOVc8RhgeAL2kiapHO17eYh01o05AV1ews+m29tbcoQ==",
+  "dgSpecHash": "qanLusXsKMpEUgNho8HJki0D7mwuBiVQ9YuEFcNhRWALw6XgCkOQu2G1JLITzrEWBOHfNSiqP4zZUOxe88/Juw==",
   "success": true,
-  "projectFilePath": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\GameHubInterface\\GameHubInterface.csproj",
+  "projectFilePath": "/mnt/0EDEAFDCDEAFB9FB/Azure Projects/Git/PeerFuse/PeerService/GameHubInterface/GameHubInterface.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

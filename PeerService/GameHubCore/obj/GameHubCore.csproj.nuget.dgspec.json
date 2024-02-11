@@ -1,38 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\GameHubCore\\GameHubCore.csproj": {}
+    "/mnt/0EDEAFDCDEAFB9FB/Azure Projects/Git/PeerFuse/PeerService/GameHubCore/GameHubCore.csproj": {}
   },
   "projects": {
-    "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\GameHubCore\\GameHubCore.csproj": {
+    "/mnt/0EDEAFDCDEAFB9FB/Azure Projects/Git/PeerFuse/PeerService/GameHubCore/GameHubCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\GameHubCore\\GameHubCore.csproj",
+        "projectUniqueName": "/mnt/0EDEAFDCDEAFB9FB/Azure Projects/Git/PeerFuse/PeerService/GameHubCore/GameHubCore.csproj",
         "projectName": "GameHubCore",
-        "projectPath": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\GameHubCore\\GameHubCore.csproj",
-        "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
-        "outputPath": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\GameHubCore\\obj\\",
+        "projectPath": "/mnt/0EDEAFDCDEAFB9FB/Azure Projects/Git/PeerFuse/PeerService/GameHubCore/GameHubCore.csproj",
+        "packagesPath": "/home/mauricio/.nuget/packages/",
+        "outputPath": "/mnt/0EDEAFDCDEAFB9FB/Azure Projects/Git/PeerFuse/PeerService/GameHubCore/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/mauricio/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
+          "net60": {
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
@@ -44,25 +35,9 @@
         }
       },
       "frameworks": {
-        "net6.0": {
+        "net60": {
           "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
         }
       }
     }

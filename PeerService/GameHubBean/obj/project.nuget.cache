@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6UhGk6dRKQsXK7bv9lhreUx10bLKeF/jGGsa9rRlVR/XSf+OKnwV9Pcuiytr5d9k1eHOr9zxEftUrOvN8oYLTg==",
+  "dgSpecHash": "7U89+XXOw7VHIeNsP2GF65JeTgxsyrs5VpBTO+dwndygSb94YnwbBYLFRRNaCBWDj+5w2JfMWExfLsPnnBDIIQ==",
   "success": true,
-  "projectFilePath": "E:\\Azure Projects\\Git\\FuseProject\\PeerService\\GameHubBean\\GameHubBean.csproj",
+  "projectFilePath": "/mnt/0EDEAFDCDEAFB9FB/Azure Projects/Git/PeerFuse/PeerService/GameHubBean/GameHubBean.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
