@@ -1,0 +1,33 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameHub", "GameHub\GameHub.csproj", "{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.API", "GameHub.API", "{27966510-30AE-4B4E-B4DB-D51AD3C1877C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.Libs", "GameHub.Libs", "{D94535A2-6DB7-444C-A8D6-A10439F255FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.Dao", "GameHub.Dao", "{6B220617-9934-49B6-9E51-35D5BD233195}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.Bean", "GameHub.Bean", "{C88A0606-7712-46D2-B610-1FB215A51CFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.Core", "GameHub.Core", "{751FA459-EA02-4140-825C-5C45CB18D9F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.Data", "GameHub.Data", "{E50EF7B9-5AF0-475E-959D-0C5D447107DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.Interfaces", "GameHub.Interfaces", "{61E2552E-5706-4F25-8B24-E203B8C9E457}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Debug|x86.ActiveCfg = Debug|x86
+		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Debug|x86.Build.0 = Debug|x86
+		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Release|x86.ActiveCfg = Release|x86
+		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
