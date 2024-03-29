@@ -10,7 +10,7 @@ public partial class MainWindow
 		this.Name = "MainWindow";
 		this.Title = global::Mono.Unix.Catalog.GetString("GameHub");
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
-		this.DefaultWidth = 1600;
+		this.DefaultWidth = 1200;
 		this.DefaultHeight = 700;
 		if ((this.Child != null))
 		{
