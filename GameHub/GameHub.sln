@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.Data", "GameHub.Dat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.Interfaces", "GameHub.Interfaces", "{61E2552E-5706-4F25-8B24-E203B8C9E457}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hub", "Hub\Hub.csproj", "{D496EA78-4BE7-4B40-914A-DF3A32C4CA93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -27,6 +29,10 @@ Global
 		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Debug|x86.Build.0 = Debug|x86
 		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Release|x86.ActiveCfg = Release|x86
 		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Release|x86.Build.0 = Release|x86
+		{D496EA78-4BE7-4B40-914A-DF3A32C4CA93}.Debug|x86.ActiveCfg = Debug|x86
+		{D496EA78-4BE7-4B40-914A-DF3A32C4CA93}.Debug|x86.Build.0 = Debug|x86
+		{D496EA78-4BE7-4B40-914A-DF3A32C4CA93}.Release|x86.ActiveCfg = Release|x86
+		{D496EA78-4BE7-4B40-914A-DF3A32C4CA93}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

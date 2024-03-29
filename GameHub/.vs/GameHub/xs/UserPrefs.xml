@@ -1,20 +1,29 @@
-﻿<Properties StartupConfiguration="{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{D496EA78-4BE7-4B40-914A-DF3A32C4CA93}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hub/MainWindow.cs">
+    <Files>
+      <File FileName="Hub/MainWindow.cs" Line="7" Column="6" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="GameHub" expanded="True" selected="True">
-            <Node name="GameHub" expanded="True" />
+          <Node name="GameHub" expanded="True">
+            <Node name="Hub" expanded="True">
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.ItemProperties.GameHub FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.GameHub PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Hub PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
