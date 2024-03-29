@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wJmR2Hi4zfetJrtScDKNEqI2Bwi5wgQe5oB8+47K/ls2+rdAlYhJ3h00fbQGRwK2jSDP6dS03M7F4Jn8t2rZSQ==",
+  "success": true,
+  "projectFilePath": "/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/Init.csproj",
+  "expectedPackageFiles": [
+    "/home/mplopes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.3/microsoft.aspnetcore.app.ref.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

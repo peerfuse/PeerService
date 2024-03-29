@@ -1,0 +1,15 @@
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/bin/Debug/net8.0/Init
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/bin/Debug/net8.0/Init.deps.json
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/bin/Debug/net8.0/Init.runtimeconfig.json
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/bin/Debug/net8.0/Init.dll
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/bin/Debug/net8.0/Init.pdb
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/obj/Debug/net8.0/Init.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/obj/Debug/net8.0/Init.AssemblyInfoInputs.cache
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/obj/Debug/net8.0/Init.AssemblyInfo.cs
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/obj/Debug/net8.0/Init.csproj.CoreCompileInputs.cache
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/obj/Debug/net8.0/Init.sourcelink.json
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/obj/Debug/net8.0/Init.dll
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/obj/Debug/net8.0/refint/Init.dll
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/obj/Debug/net8.0/Init.pdb
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/obj/Debug/net8.0/Init.genruntimeconfig.cache
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/FuseX_Network/Init/obj/Debug/net8.0/ref/Init.dll
