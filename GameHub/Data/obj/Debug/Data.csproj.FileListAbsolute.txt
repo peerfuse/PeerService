@@ -1,0 +1,5 @@
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Data/bin/Debug/Data.dll
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Data/bin/Debug/Data.pdb
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Data/obj/Debug/Data.csproj.CoreCompileInputs.cache
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Data/obj/Debug/Data.dll
+/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Data/obj/Debug/Data.pdb

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProjectGuid>{3BF75755-4C60-40B5-A0B8-E287421D33AF}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package>
+          <Builder>
+            <RootEntry>
+              <path>Hub\Hub.csproj</path>
+            </RootEntry>
+            <TargetDirectory>Hub</TargetDirectory>
+            <DefaultConfiguration>Debug|x86</DefaultConfiguration>
+            <ctype>TarballDeployTarget</ctype>
+          </Builder>
+          <name>Tarball</name>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>

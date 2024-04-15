@@ -1,8 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameHub", "GameHub\GameHub.csproj", "{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.API", "GameHub.API", "{27966510-30AE-4B4E-B4DB-D51AD3C1877C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameHub.Libs", "GameHub.Libs", "{D94535A2-6DB7-444C-A8D6-A10439F255FE}"
@@ -33,16 +31,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libs", "Libs\Libs.csproj", "{EBD21F97-A45B-46EE-9D21-038F98A030CC}"
 EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Packages", "Packages.mdproj", "{3BF75755-4C60-40B5-A0B8-E287421D33AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Debug|x86.ActiveCfg = Debug|x86
-		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Debug|x86.Build.0 = Debug|x86
-		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Release|x86.ActiveCfg = Release|x86
-		{D79DF3F3-6C85-4F86-8C9A-34448CA77A67}.Release|x86.Build.0 = Release|x86
 		{D496EA78-4BE7-4B40-914A-DF3A32C4CA93}.Debug|x86.ActiveCfg = Debug|x86
 		{D496EA78-4BE7-4B40-914A-DF3A32C4CA93}.Debug|x86.Build.0 = Debug|x86
 		{D496EA78-4BE7-4B40-914A-DF3A32C4CA93}.Release|x86.ActiveCfg = Release|x86
@@ -75,6 +71,8 @@ Global
 		{EBD21F97-A45B-46EE-9D21-038F98A030CC}.Debug|x86.Build.0 = Debug|x86
 		{EBD21F97-A45B-46EE-9D21-038F98A030CC}.Release|x86.ActiveCfg = Release|x86
 		{EBD21F97-A45B-46EE-9D21-038F98A030CC}.Release|x86.Build.0 = Release|x86
+		{3BF75755-4C60-40B5-A0B8-E287421D33AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BF75755-4C60-40B5-A0B8-E287421D33AF}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D351BF5A-8F68-4319-B5F9-7DBCCA59A7A2} = {27966510-30AE-4B4E-B4DB-D51AD3C1877C}
