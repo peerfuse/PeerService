@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Tp2aH+f8nKc0c9lh0IgfyZA0EghIi5aWM56AJd3Wykj41orwTRgyHCI+aWqd42VVngUV0gVIkr6tD2iwp9TxA==",
+  "success": true,
+  "projectFilePath": "/home/mplopes/Documentos/Github/PeerService/AtlantisSolution/Atlantis.Server/Atlantis.Server.csproj",
+  "expectedPackageFiles": [
+    "/home/mplopes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
