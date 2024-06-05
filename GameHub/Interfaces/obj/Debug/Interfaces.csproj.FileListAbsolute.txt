@@ -1,5 +1,0 @@
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Interfaces/bin/Debug/Interfaces.dll
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Interfaces/bin/Debug/Interfaces.pdb
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Interfaces/obj/Debug/Interfaces.csproj.CoreCompileInputs.cache
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Interfaces/obj/Debug/Interfaces.dll
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Interfaces/obj/Debug/Interfaces.pdb

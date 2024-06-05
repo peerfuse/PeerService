@@ -1,5 +1,0 @@
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Bean/bin/Debug/Bean.dll
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Bean/bin/Debug/Bean.pdb
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Bean/obj/Debug/Bean.csproj.CoreCompileInputs.cache
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Bean/obj/Debug/Bean.dll
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Bean/obj/Debug/Bean.pdb

@@ -1,6 +1,0 @@
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Dao/bin/Debug/Dao.dll
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Dao/bin/Debug/Dao.pdb
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Dao/obj/Debug/Dao.csproj.AssemblyReference.cache
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Dao/obj/Debug/Dao.csproj.CoreCompileInputs.cache
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Dao/obj/Debug/Dao.dll
-/run/media/mplopes/48b9a565-fcde-403d-aa1b-2e8fddeb6749/GitHubProjects/PeerService/GameHub/Dao/obj/Debug/Dao.pdb
