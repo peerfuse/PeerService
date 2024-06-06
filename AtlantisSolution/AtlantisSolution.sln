@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Igration", "Atlant
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Data", "Atlantis.Data\Atlantis.Data.csproj", "{8366F0A5-9D5E-4800-9ABD-2BB3D624AB66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.GameInfo", "Atlantis.GameInfo\Atlantis.GameInfo.csproj", "{0D3C5725-C8F3-4868-82A2-48F2CBDF84ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{8366F0A5-9D5E-4800-9ABD-2BB3D624AB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8366F0A5-9D5E-4800-9ABD-2BB3D624AB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8366F0A5-9D5E-4800-9ABD-2BB3D624AB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3C5725-C8F3-4868-82A2-48F2CBDF84ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3C5725-C8F3-4868-82A2-48F2CBDF84ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3C5725-C8F3-4868-82A2-48F2CBDF84ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3C5725-C8F3-4868-82A2-48F2CBDF84ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

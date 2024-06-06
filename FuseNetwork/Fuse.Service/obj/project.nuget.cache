@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+QPGLsXxgG43IprjszlkfnrDq1ttH69LuZud9lrnq5RRthsQbSkpjbESSx4NUvNdY6iSqetgX1IK3BEn087PpA==",
+  "success": true,
+  "projectFilePath": "/home/mplopes/Documentos/Github/PeerService/FuseNetwork/Fuse.Service/Fuse.Service.csproj",
+  "expectedPackageFiles": [
+    "/home/mplopes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
