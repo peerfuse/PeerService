@@ -1,0 +1,6 @@
+@Fuse.Application_HostAddress = http://localhost:5107
+
+GET {{Fuse.Application_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
