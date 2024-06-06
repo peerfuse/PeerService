@@ -1,0 +1,6 @@
+/home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/bin/Debug/AtlantisLouncher.exe
+/home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/bin/Debug/AtlantisLouncher.pdb
+/home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/obj/x86/Debug/AtlantisLouncher.csproj.AssemblyReference.cache
+/home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/obj/x86/Debug/AtlantisLouncher.csproj.CoreCompileInputs.cache
+/home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/obj/x86/Debug/AtlantisLouncher.exe
+/home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/obj/x86/Debug/AtlantisLouncher.pdb
