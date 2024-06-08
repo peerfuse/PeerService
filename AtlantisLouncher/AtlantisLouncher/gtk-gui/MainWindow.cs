@@ -23,6 +23,8 @@ public partial class MainWindow
 
 	private global::Gtk.Button button2;
 
+	private global::Gtk.Button button3;
+
 	protected virtual void Build()
 	{
 		global::Stetic.Gui.Initialize(this);
@@ -116,6 +118,16 @@ public partial class MainWindow
 		global::Gtk.Fixed.FixedChild w9 = ((global::Gtk.Fixed.FixedChild)(this.fixed1[this.button2]));
 		w9.X = 6;
 		w9.Y = 146;
+		// Container child fixed1.Gtk.Fixed+FixedChild
+		this.button3 = new global::Gtk.Button();
+		this.button3.CanFocus = true;
+		this.button3.Name = "button3";
+		this.button3.UseUnderline = true;
+		this.button3.Label = global::Mono.Unix.Catalog.GetString("Register");
+		this.fixed1.Add(this.button3);
+		global::Gtk.Fixed.FixedChild w10 = ((global::Gtk.Fixed.FixedChild)(this.fixed1[this.button3]));
+		w10.X = 88;
+		w10.Y = 144;
 		this.Add(this.fixed1);
 		if ((this.Child != null))
 		{
@@ -123,5 +135,9 @@ public partial class MainWindow
 		}
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
+		this.button2.Clicked += new global::System.EventHandler(this.OnClik);
+		this.button2.Entered += new global::System.EventHandler(this.OnClikReleased);
+		this.button3.Clicked += new global::System.EventHandler(this.OnRegister);
+		this.button3.Entered += new global::System.EventHandler(this.OnRegisterReleased);
 	}
 }

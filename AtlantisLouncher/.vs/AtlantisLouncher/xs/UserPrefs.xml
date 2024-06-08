@@ -1,15 +1,29 @@
 ﻿<Properties StartupConfiguration="{B7547BFF-26C1-4A98-B2A4-406BBB169AAE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AtlantisLouncher/MainWindow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AtlantisLouncher/Data/AtlantsDbContext.cs">
     <Files>
       <File FileName="AtlantisLouncher/Program.cs" Line="1" Column="1" />
-      <File FileName="AtlantisLouncher/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="AtlantisLouncher/MainWindow.cs" Line="8" Column="22" />
+      <File FileName="AtlantisLouncher/Data/AtlantsDbContext.cs" Line="12" Column="47" />
+      <File FileName="AtlantisLouncher/Repository/AtlantsRepository.cs" Line="6" Column="2" />
+      <File FileName="AtlantisLouncher/Interfaces/IAtlantsRepository.cs" Line="1" Column="1" />
+      <File FileName="AtlantisLouncher/Core/User.cs" Line="7" Column="10" />
+      <File FileName="AtlantisLouncher/Core/UserData.cs" Line="4" Column="26" />
+      <File FileName="AtlantisLouncher/Exceptions/NotFoundException.cs" Line="7" Column="9" />
+      <File FileName="AtlantisLouncher/Exceptions/ApplicationException.cs" Line="5" Column="6" />
+      <File FileName="AtlantisLouncher/Data/AtlantsDbConfigurations.cs" Line="8" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AtlantisLouncher" expanded="True">
             <Node name="AtlantisLouncher" expanded="True">
-              <Node name="MainWindow.cs" selected="True" />
+              <Node name="Core" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="AtlantsDbContext.cs" selected="True" />
+              </Node>
+              <Node name="Exceptions" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Repository" expanded="True" />
             </Node>
           </Node>
         </State>
