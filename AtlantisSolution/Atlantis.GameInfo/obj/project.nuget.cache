@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4qYMQI8Ej+WzTAWYQr0y/tLbnh7Ma+CswwEtTsozk9EZl+ss28BFmVOBPzR5s22YeoWizdrHY6+VrWZPF3hiAA==",
+  "dgSpecHash": "I3Uy5D4KYfY=",
   "success": true,
   "projectFilePath": "/home/mplopes/Documentos/Github/PeerService/AtlantisSolution/Atlantis.GameInfo/Atlantis.GameInfo.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,7 @@
     "/home/mplopes/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/home/mplopes/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "/home/mplopes/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
-    "/home/mplopes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
+    "/home/mplopes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
   ],
   "logs": []
 }

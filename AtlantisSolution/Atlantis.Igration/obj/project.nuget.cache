@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QRRsg0wKdo5VXlwYBcVaF203RPc43kcZ1Ah2X/lnljzKHFTjsLrIXp5b0uAZJyjY0rht7Xq5yJqsw3eDbmKwoQ==",
+  "dgSpecHash": "Z8HIus2jtBg=",
   "success": true,
   "projectFilePath": "/home/mplopes/Documentos/Github/PeerService/AtlantisSolution/Atlantis.Igration/Atlantis.Igration.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,7 @@
     "/home/mplopes/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/home/mplopes/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "/home/mplopes/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
-    "/home/mplopes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
+    "/home/mplopes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
   ],
   "logs": []
 }
