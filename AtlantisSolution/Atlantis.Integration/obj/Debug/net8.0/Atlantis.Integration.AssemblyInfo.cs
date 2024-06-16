@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Atlantis.Integration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7b0bb683f25353befc8cd142edb515971056bea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a0aafba43b1e0499621d7f232890665b2e7876d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Atlantis.Integration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Atlantis.Integration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
