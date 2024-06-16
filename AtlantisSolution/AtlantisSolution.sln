@@ -6,11 +6,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Register", "Atlant
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Server", "Atlantis.Server\Atlantis.Server.csproj", "{E71CDC1C-83F0-4343-97BC-06896FB095E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Igration", "Atlantis.Igration\Atlantis.Igration.csproj", "{3444E20E-C735-4FD7-BE60-711AD3D06753}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Data", "Atlantis.Data\Atlantis.Data.csproj", "{8366F0A5-9D5E-4800-9ABD-2BB3D624AB66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Integration", "Atlantis.Integration\Atlantis.Integration.csproj", "{3444E20E-C735-4FD7-BE60-711AD3D06753}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.GameInfo", "Atlantis.GameInfo\Atlantis.GameInfo.csproj", "{0D3C5725-C8F3-4868-82A2-48F2CBDF84ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Data", "Atlantis.Data\Atlantis.Data.csproj", "{34F0FE1E-3C81-488D-87C6-2FC656F5D6DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,13 +34,15 @@ Global
 		{3444E20E-C735-4FD7-BE60-711AD3D06753}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3444E20E-C735-4FD7-BE60-711AD3D06753}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3444E20E-C735-4FD7-BE60-711AD3D06753}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8366F0A5-9D5E-4800-9ABD-2BB3D624AB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8366F0A5-9D5E-4800-9ABD-2BB3D624AB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8366F0A5-9D5E-4800-9ABD-2BB3D624AB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8366F0A5-9D5E-4800-9ABD-2BB3D624AB66}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D3C5725-C8F3-4868-82A2-48F2CBDF84ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D3C5725-C8F3-4868-82A2-48F2CBDF84ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D3C5725-C8F3-4868-82A2-48F2CBDF84ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D3C5725-C8F3-4868-82A2-48F2CBDF84ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F0FE1E-3C81-488D-87C6-2FC656F5D6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F0FE1E-3C81-488D-87C6-2FC656F5D6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F0FE1E-3C81-488D-87C6-2FC656F5D6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F0FE1E-3C81-488D-87C6-2FC656F5D6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal

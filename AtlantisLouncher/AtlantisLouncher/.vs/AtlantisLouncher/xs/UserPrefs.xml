@@ -1,15 +1,18 @@
 ﻿<Properties StartupConfiguration="{B7547BFF-26C1-4A98-B2A4-406BBB169AAE}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="13" Column="31" />
-      <File FileName="packages.config" Line="1" Column="1" />
-      <File FileName="MainWindow.cs" Line="11" Column="17" />
-      <File FileName="../../../../../../../usr/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2189" Column="1" />
+      <File FileName="Saída do Build 3:56 PM 2024-06-16.binlog" />
+      <File FileName="RegisterWindow.cs" Line="2" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AtlantisLouncher" expanded="True" selected="True" />
+          <Node name="AtlantisLouncher" expanded="True">
+            <Node name="AtlantisLouncher" expanded="True">
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

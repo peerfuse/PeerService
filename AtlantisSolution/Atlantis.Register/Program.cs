@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Mvc;
+using Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -20,6 +23,10 @@ var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+app.MapPost("/Register", ([FromBody] User user) =>
+{
+    return user;
+});
 
 app.MapGet("/weatherforecast", () =>
     {
