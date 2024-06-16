@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{B7547BFF-26C1-4A98-B2A4-406BBB169AAE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AtlantisLouncher/Program.cs">
+    <Files>
+      <File FileName="AtlantisLouncher/MainWindow.cs" Line="8" Column="22" />
+      <File FileName="AtlantisLouncher/Program.cs" Line="10" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AtlantisLouncher" expanded="True">
+            <Node name="AtlantisLouncher" expanded="True">
+              <Node name="Core" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Exceptions" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Repository" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AtlantisLouncher PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
