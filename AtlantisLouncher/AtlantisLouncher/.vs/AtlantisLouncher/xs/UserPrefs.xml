@@ -3,8 +3,8 @@
     <Files>
       <File FileName="MainWindow.cs" Line="54" Column="18" />
       <File FileName="Data/AtlantsDbConfigurations.cs" Line="14" Column="38" />
-      <File FileName="Data/AtlantsDbContext.cs" Line="11" Column="9" />
-      <File FileName="Wins/MessageWind.cs" Line="12" Column="26" />
+      <File FileName="Data/AtlantsDbContext.cs" Line="11" Column="1" />
+      <File FileName="Wins/MessageWind.cs" Line="3" Column="2" />
       <File FileName="RegisterWindow.cs" Line="10" Column="52" />
     </Files>
     <Pads>
