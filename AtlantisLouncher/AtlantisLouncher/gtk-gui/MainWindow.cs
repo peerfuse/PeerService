@@ -103,6 +103,7 @@ public partial class MainWindow
 		this.entry2.CanFocus = true;
 		this.entry2.Name = "entry2";
 		this.entry2.IsEditable = true;
+		this.entry2.Visibility = false;
 		this.entry2.InvisibleChar = '•';
 		this.fixed1.Add(this.entry2);
 		global::Gtk.Fixed.FixedChild w8 = ((global::Gtk.Fixed.FixedChild)(this.fixed1[this.entry2]));

@@ -7,15 +7,15 @@ namespace AtlantisLouncher.Core
 
         public String statusCode { get; set; }
 
-        public Guid Uid { get; set; }
+        public string uid { get; set; }
 
-        public User User { get; set; }
+        public User user { get; set; }
 
-        public UserData(string StatusCode, Guid uid, User user)
+        public UserData(string statusCode, string uid, User user)
         {
-            statusCode = StatusCode;
-            Uid = uid;
-            User = user;
+            this.statusCode = statusCode;
+            this.uid = uid;
+            this.user = user;
         }
     }
 }
