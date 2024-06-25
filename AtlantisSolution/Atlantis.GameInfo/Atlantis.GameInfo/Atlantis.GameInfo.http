@@ -1,6 +1,0 @@
-@Atlantis.GameInfo_HostAddress = http://localhost:5193
-
-GET {{Atlantis.GameInfo_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
