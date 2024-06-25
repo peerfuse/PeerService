@@ -132,6 +132,9 @@
     <Reference Include="System.Text.Json">
       <HintPath>packages\System.Text.Json.8.0.3\lib\net462\System.Text.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.InMemory">
+      <HintPath>packages\Microsoft.EntityFrameworkCore.InMemory.3.1.32\lib\netstandard2.0\Microsoft.EntityFrameworkCore.InMemory.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="gtk-gui\gui.stetic">
@@ -158,6 +161,8 @@
     <Compile Include="Data\AtlantsDbConfigurations.cs" />
     <Compile Include="Wins\MessageWind.cs" />
     <Compile Include="gtk-gui\AtlantisLouncher.Wins.MessageWind.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="PokerData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />

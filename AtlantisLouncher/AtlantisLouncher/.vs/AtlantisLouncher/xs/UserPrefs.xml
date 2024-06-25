@@ -1,26 +1,8 @@
-﻿<Properties StartupConfiguration="{B7547BFF-26C1-4A98-B2A4-406BBB169AAE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Wins/MessageWind.cs">
+﻿<Properties StartupConfiguration="{B7547BFF-26C1-4A98-B2A4-406BBB169AAE}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainWindow.cs">
     <Files>
-      <File FileName="MainWindow.cs" Line="54" Column="18" />
-      <File FileName="Data/AtlantsDbConfigurations.cs" Line="14" Column="38" />
-      <File FileName="Data/AtlantsDbContext.cs" Line="11" Column="1" />
-      <File FileName="Wins/MessageWind.cs" Line="3" Column="2" />
-      <File FileName="RegisterWindow.cs" Line="10" Column="52" />
+      <File FileName="MainWindow.cs" Line="61" Column="63" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="AtlantisLouncher" expanded="True">
-            <Node name="AtlantisLouncher" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Wins" expanded="True">
-                <Node name="MessageWind.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.AtlantisLouncher PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

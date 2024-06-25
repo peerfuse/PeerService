@@ -151,3 +151,5 @@
 /home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/bin/Debug/System.Text.Json.dll
 /home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/bin/Debug/System.Text.Encodings.Web.xml
 /home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/bin/Debug/System.Text.Json.xml
+/home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/bin/Debug/Microsoft.EntityFrameworkCore.InMemory.dll
+/home/mplopes/Documentos/Github/PeerService/AtlantisLouncher/AtlantisLouncher/bin/Debug/Microsoft.EntityFrameworkCore.InMemory.xml

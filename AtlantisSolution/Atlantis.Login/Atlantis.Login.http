@@ -1,6 +1,0 @@
-@Atlantis.Login_HostAddress = http://localhost:5250
-
-POST {{Atlantis.Login_HostAddress}}/Login
-Accept: application/json
-
-###
