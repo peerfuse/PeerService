@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Server", "Atlantis.Server\Atlantis.Server.csproj", "{10AE95C8-E6B4-438B-86CA-5A529EF39550}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10AE95C8-E6B4-438B-86CA-5A529EF39550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10AE95C8-E6B4-438B-86CA-5A529EF39550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10AE95C8-E6B4-438B-86CA-5A529EF39550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10AE95C8-E6B4-438B-86CA-5A529EF39550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
