@@ -20,14 +20,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Atlantis.GameInfo", "Atlant
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.GameInfo", "Atlantis.GameInfo\Atlantis.GameInfo.csproj", "{B04644C6-7B13-44F6-84A0-BE326B05BDAF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Atlantis.Data", "Atlantis.Data", "{6C0EB680-651B-47EC-B19E-6B446D0FB013}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Data", "Atlantis.Data\Atlantis.Data.csproj", "{0DA6F882-6EB2-4A96-A3AC-6A59F1040690}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A401A083-DFB5-4FE7-AE92-53922EE7FB6C}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Atlantis.Data", "Atlantis.Data", "{3290A374-E200-49C1-9834-6340C569B9A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Data", "Atlantis.Data\Atlantis.Data.csproj", "{79CD72CD-68C5-44C7-A5B2-7B5F0B06EDD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,7 +40,7 @@ Global
 		{3893FAEF-7F14-4B95-9982-BA10BFD8D89C} = {59A0E3A4-120A-4F91-808A-F0EEBDAB94E4}
 		{7CE84D4E-2A5E-48CB-8044-B917C55AC985} = {AED564A6-BE2E-4193-894D-2F7B43C9052F}
 		{B04644C6-7B13-44F6-84A0-BE326B05BDAF} = {D99CF192-4ACB-4785-A73D-26E9BABAA546}
-		{0DA6F882-6EB2-4A96-A3AC-6A59F1040690} = {6C0EB680-651B-47EC-B19E-6B446D0FB013}
+		{79CD72CD-68C5-44C7-A5B2-7B5F0B06EDD2} = {3290A374-E200-49C1-9834-6340C569B9A4}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FAAD57EB-8C24-4F8C-9A67-FFFEF7803246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -63,9 +63,9 @@ Global
 		{B04644C6-7B13-44F6-84A0-BE326B05BDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B04644C6-7B13-44F6-84A0-BE326B05BDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B04644C6-7B13-44F6-84A0-BE326B05BDAF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0DA6F882-6EB2-4A96-A3AC-6A59F1040690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DA6F882-6EB2-4A96-A3AC-6A59F1040690}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DA6F882-6EB2-4A96-A3AC-6A59F1040690}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DA6F882-6EB2-4A96-A3AC-6A59F1040690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CD72CD-68C5-44C7-A5B2-7B5F0B06EDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CD72CD-68C5-44C7-A5B2-7B5F0B06EDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CD72CD-68C5-44C7-A5B2-7B5F0B06EDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CD72CD-68C5-44C7-A5B2-7B5F0B06EDD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

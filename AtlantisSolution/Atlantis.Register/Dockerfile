@@ -3,6 +3,9 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
+ENV ASPNETCORE_URLS=http://+:8080;http://+:80
+ENV ASPNETCORE_ENVIROMENT=Development
+
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY ["Atlantis.Register/Atlantis.Register.csproj", "Atlantis.Register/"]

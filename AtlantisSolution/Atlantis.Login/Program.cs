@@ -1,3 +1,7 @@
+using Atlantis.Login.Models;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,19 +11,20 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-} 
-
-app.UseHttpsRedirection();
-
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+
+app.MapPost("/login", ([FromBody] User user) =>
+{
+    
+});
+
+app.MapGet("/status", () =>
+{
+    return $" Login Service in Running : {DateTime.Now}";
+});
 
 app.MapGet("/weatherforecast", () =>
     {

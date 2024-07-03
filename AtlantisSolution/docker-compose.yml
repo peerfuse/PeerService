@@ -4,6 +4,8 @@
     build:
       context: .
       dockerfile: Atlantis.Data/Dockerfile
+    ports:
+      - 5000:80
 
   atlantis.gameinfo:
     image: atlantis.gameinfo
@@ -22,15 +24,21 @@
     build:
       context: .
       dockerfile: Atlantis.Login/Dockerfile
+    ports:
+      - 8000:80
 
   atlantis.register:
     image: atlantis.register
     build:
       context: .
       dockerfile: Atlantis.Register/Dockerfile
+    ports:
+      - 8080:80
 
   atlantis.server:
     image: atlantis.server
     build:
       context: .
       dockerfile: Atlantis.Server/Dockerfile
+    ports:
+      - 7777:7777

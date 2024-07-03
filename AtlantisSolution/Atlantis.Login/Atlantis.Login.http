@@ -1,6 +1,12 @@
-@Atlantis.Login_HostAddress = http://localhost:5049
+@Atlantis.Login_HostAddress = http://localhost:8000
 
 GET {{Atlantis.Login_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET {{Atlantis.Login_HostAddress}}/status/
+Accept: application/json
+
+POST {{Atlantis.Login_HostAddress}}/login/
 Accept: application/json
 
 ###
