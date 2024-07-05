@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/AtlantisWallet.Data.props" />
+</Project>

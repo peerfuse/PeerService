@@ -1,5 +1,8 @@
-using Atlantis.Register.Models;
+using System.Text.Json;
+using Microsoft.AspNetCore.Builder;
+using Models;
 using Microsoft.AspNetCore.Mvc;
+using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +13,27 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.MapPost("/register", ([FromBody] User user) =>
+app.MapPost("/register", async ([FromBody] User user) =>
 {
+    Console.WriteLine(JsonSerializer.Serialize(user));
+    var rp = await RegisterAccount(user);
+    if (rp != null)
+    {
+        return rp;
+    }
+    else
+    {
+        return null;
+    }
     
 });
+
+async Task<Account> RegisterAccount(User user)
+{
+    var rp = new AccountRepository();
+    var ac = await rp.SendObject(user, CancellationToken.None) as Account;
+    return ac;
+}
 
 app.MapGet("/status", () =>
 {
