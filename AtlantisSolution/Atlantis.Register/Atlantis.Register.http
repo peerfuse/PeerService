@@ -1,0 +1,12 @@
+@Atlantis.Register_HostAddress = http://localhost:8080
+
+GET {{Atlantis.Register_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET {{Atlantis.Login_HostAddress}}/status/
+Accept: application/json
+
+POST {{Atlantis.Login_HostAddress}}/register/
+Accept: application/json
+
+###
