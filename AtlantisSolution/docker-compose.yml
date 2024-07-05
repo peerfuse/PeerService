@@ -6,6 +6,8 @@
       dockerfile: Atlantis.Data/Dockerfile
     ports:
       - 5000:80
+    entrypoint: 
+      
 
   atlantis.gameinfo:
     image: atlantis.gameinfo
@@ -42,3 +44,19 @@
       dockerfile: Atlantis.Server/Dockerfile
     ports:
       - 7777:7777
+  
+  Atlantis.Wallets:
+    image: Atlantis.Wallets
+    build:
+      context: .
+      dockerfile: Atlantis.Wallets/Dockerfile
+    ports:
+      - 5050:80
+  
+  AtlantisWallet.Data:
+    image: AtlantisWallet.Data
+    build:
+      context: .
+      dockerfile: AtlantisWallet.Data/Dockerfile
+    ports:
+      - 5100:80

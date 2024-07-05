@@ -1,5 +1,6 @@
-using Microsoft.AspNetCore.Builder;
+using Data;
 using Microsoft.AspNetCore.Mvc;
+using Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,11 +10,18 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+new InicializaBD().Initialize(new AtlantisData());
+app.MapPost("/login", ([FromBody] User user) =>
+{
+    
+});
 
 app.MapGet("/status", () =>
 {
     return $" Data Service in Running : {DateTime.Now}";
 }).WithName("status").WithOpenApi();
+
+
 
 app.Run();
 
