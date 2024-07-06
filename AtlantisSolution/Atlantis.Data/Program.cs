@@ -13,12 +13,27 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 new InicializaBD().Initialize(new AtlantisData());
-app.MapGet("/GetAccounts", () =>
+app.MapPost("/GetAccounts", async ([FromBody] User user) =>
+{
+    Console.WriteLine(JsonSerializer.Serialize(user));
+    var rp = await GetAccount(user);
+    return rp;
+});
+async Task<Account> GetAccount(User _user)
 {
     var db = new AtlantisData();
     var rp = new AtlantisRepository(db);
-    return rp.getAccounts();
-});
+    var ac = await rp.GetObject(_user, CancellationToken.None) as Account;
+    if (ac != null)
+    {
+        return ac;
+    }
+    else
+    {
+        return null;
+    }
+}
+
 
 app.MapPost("/Register", async ([FromBody] User user) =>
 {

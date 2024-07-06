@@ -17,14 +17,10 @@ public class AtlantisRepository : IAtlantisData
     {
         object? type = null;
         var data = _object as User;
-        type = await _AtlantisData._Accounts.FirstOrDefaultAsync(x => x.mail == data.mail);
-        if (type is null)
+        await using (var context = new AtlantisData())
         {
-            await using (var context = new AtlantisData())
-            {
-                var _userInMysql = await _AtlantisData._Accounts.ToListAsync();
-                type = _userInMysql.Find(x => x.mail == data.mail);
-            }
+            var _userInMysql = await _AtlantisData._Accounts.ToListAsync();
+            type = _userInMysql.Find(x => x.mail == data.mail);
         }
         return type;
     }

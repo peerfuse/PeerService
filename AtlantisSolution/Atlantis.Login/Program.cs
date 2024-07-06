@@ -1,5 +1,4 @@
-using Atlantis.Login.Models;
-using Microsoft.AspNetCore.Builder;
+using Models;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
