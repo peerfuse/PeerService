@@ -1,5 +1,3 @@
-using System.Text.Json;
-using Atlantis.Data.Repository;
 using Data;
 using Microsoft.AspNetCore.Mvc;
 using Models;
@@ -13,49 +11,10 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 new InicializaBD().Initialize(new AtlantisData());
-app.MapPost("/GetAccounts", async ([FromBody] User user) =>
+app.MapPost("/login", ([FromBody] User user) =>
 {
-    Console.WriteLine(JsonSerializer.Serialize(user));
-    var rp = await GetAccount(user);
-    return rp;
+    
 });
-async Task<Account> GetAccount(User _user)
-{
-    var db = new AtlantisData();
-    var rp = new AtlantisRepository(db);
-    var ac = await rp.GetObject(_user, CancellationToken.None) as Account;
-    if (ac != null)
-    {
-        return ac;
-    }
-    else
-    {
-        return null;
-    }
-}
-
-
-app.MapPost("/Register", async ([FromBody] User user) =>
-{
-    Console.WriteLine(JsonSerializer.Serialize(user));
-    var rp = await RegisterAccount(new Account(Guid.NewGuid().ToString().Substring(0, 13), user.mail, user.password));
-    return rp;
-});
-
- async Task<Account> RegisterAccount(Account _account)
-{
-    var db = new AtlantisData();
-    var rp = new AtlantisRepository(db);
-    var ac = await rp.InsetObject(_account, CancellationToken.None) as Account;
-    if (ac != null)
-    {
-        return ac;
-    }
-    else
-    {
-        return null;
-    }
-}
 
 app.MapGet("/status", () =>
 {

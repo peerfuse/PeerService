@@ -5,7 +5,6 @@ namespace Data;
 
 public class AtlantisData : DbContext
 {
-    public AtlantisData(){}
     public DbSet<Account> _Accounts { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder options)
         => options.UseSqlite("Data Source=AtlantisData.db");

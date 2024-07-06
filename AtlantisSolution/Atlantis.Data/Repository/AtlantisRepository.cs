@@ -17,10 +17,14 @@ public class AtlantisRepository : IAtlantisData
     {
         object? type = null;
         var data = _object as User;
-        await using (var context = new AtlantisData())
+        type = await _AtlantisData._Accounts.FirstOrDefaultAsync(x => x.mail == data.mail);
+        if (type is null)
         {
-            var _userInMysql = await _AtlantisData._Accounts.ToListAsync();
-            type = _userInMysql.Find(x => x.mail == data.mail);
+            await using (var context = new AtlantisData())
+            {
+                var _userInMysql = await _AtlantisData._Accounts.ToListAsync();
+                type = _userInMysql.Find(x => x.mail == data.mail);
+            }
         }
         return type;
     }
@@ -31,7 +35,18 @@ public class AtlantisRepository : IAtlantisData
         var _char = _object as Account;
         await _AtlantisData._Accounts.AddAsync(_char, cancellationToken);
         await _AtlantisData.SaveChangesAsync(cancellationToken);
-        _obj = await _AtlantisData._Accounts.FirstOrDefaultAsync(x => x.mail == _char.mail);
+        var _userInMemory = await _AtlantisData._Accounts.ToListAsync();
+        var type = _userInMemory.Find(x => x.mail == _char.mail);
+        if (type is not null)
+        {
+            await using (var context = new AtlantisData())
+            {
+                var newUserMySQL = new Account {Id = _char.Id,mail = _char.mail, password = _char.password};
+                context._Accounts.Add(newUserMySQL);
+                _obj = await new AtlantisRepository(_AtlantisData).GetObject(_char,cancellationToken);
+            }
+        }
+
         return _obj;
     }
 
@@ -43,15 +58,5 @@ public class AtlantisRepository : IAtlantisData
     public Task RemoveObject(object _object, CancellationToken cancellationToken)
     {
         return null;
-    }
-
-    public async Task<object> getAccounts()
-    {
-        object? type = null;
-        await using (var context = new AtlantisData())
-        {
-            type = await _AtlantisData._Accounts.ToListAsync();
-        }
-        return type;
     }
 }
