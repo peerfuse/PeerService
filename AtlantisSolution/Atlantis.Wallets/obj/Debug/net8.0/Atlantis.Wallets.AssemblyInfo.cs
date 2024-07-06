@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Atlantis.Wallets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+431d796cc1e89ccd848745ebf504d343e1abb4ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79c78e5177c9be45627938f270b56d8e6ccfaad7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Atlantis.Wallets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Atlantis.Wallets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
