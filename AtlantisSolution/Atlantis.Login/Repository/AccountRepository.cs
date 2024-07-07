@@ -7,11 +7,11 @@ namespace Repository;
 
 public class AccountRepository : IAccountRepository
 {
-    public async Task<object> SendObject(object _object, CancellationToken cancellationToken)
+    public async Task<object> GetObject(object _object, CancellationToken cancellationToken)
     {
         object? _obj = null;
         var _char = _object as User;
-        string url = "http://10.0.0.155:5000/GetAccounts";
+        string url = $"http://194.113.64.33:5000/login/{_char.mail}";
 
         using (HttpClientHandler handler = new HttpClientHandler())
         {
@@ -22,13 +22,12 @@ public class AccountRepository : IAccountRepository
                 {
                     string json = JsonSerializer.Serialize(_char);
                     StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
-                    HttpResponseMessage response = await client.PostAsync(url, content);
+                    HttpResponseMessage response = await client.GetAsync(url);
                     response.EnsureSuccessStatusCode();
                     string responseBody = await response.Content.ReadAsStringAsync();
                     Console.WriteLine($"ResponseBody >> {responseBody}");
                     Account obj = JsonSerializer.Deserialize<Account>(responseBody);
-                    Console.WriteLine($"{obj.Id}");
-                    return obj;
+                    return obj!;
                 }
                 catch (Exception ex)
                 {
