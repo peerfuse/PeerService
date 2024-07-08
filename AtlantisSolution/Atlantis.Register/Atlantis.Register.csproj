@@ -9,6 +9,7 @@
     <PackageReference Include="Grpc.Core.Api" Version="2.57.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Bean" />

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Atlantis.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10e14a9e551d65ee2d39829b38fb7d55373dd7a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d12f3f96738b628ff92f7f30e9f5f7e5c359e6df")]
 [assembly: System.Reflection.AssemblyProductAttribute("Atlantis.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Atlantis.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
