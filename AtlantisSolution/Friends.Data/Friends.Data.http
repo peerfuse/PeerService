@@ -1,0 +1,6 @@
+@Friends.Data_HostAddress = http://localhost:5076
+
+GET {{Friends.Data_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

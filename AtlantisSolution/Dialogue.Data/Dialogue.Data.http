@@ -1,0 +1,6 @@
+@Dialogue.Data_HostAddress = http://localhost:5173
+
+GET {{Dialogue.Data_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

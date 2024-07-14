@@ -3041,7 +3041,8 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 6.4.0"
     ]
   },
   "packageFolders": {
@@ -3115,6 +3116,10 @@
             "version": "[8.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.4.0, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
             "target": "Package",
             "version": "[6.4.0, )"
           }

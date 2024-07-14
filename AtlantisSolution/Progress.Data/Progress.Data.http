@@ -1,0 +1,6 @@
+@Progress.Data_HostAddress = http://localhost:5063
+
+GET {{Progress.Data_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

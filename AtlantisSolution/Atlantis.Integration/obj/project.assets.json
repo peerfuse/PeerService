@@ -786,7 +786,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Grpc.AspNetCore >= 2.57.0"
+      "Grpc.AspNetCore >= 2.57.0",
+      "Grpc.Core.Api >= 2.57.0"
     ]
   },
   "packageFolders": {
@@ -832,6 +833,10 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Grpc.AspNetCore": {
+            "target": "Package",
+            "version": "[2.57.0, )"
+          },
+          "Grpc.Core.Api": {
             "target": "Package",
             "version": "[2.57.0, )"
           }

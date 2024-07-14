@@ -17,14 +17,10 @@ public class AtlantisRepository : IAtlantisData
     {
         object? type = null;
         var data = _object as User;
-        type = await _AtlantisData._Accounts.FirstOrDefaultAsync(x => x.mail == data.mail);
-        if (type is null)
+        await using (var context = new AtlantisData())
         {
-            await using (var context = new AtlantisData())
-            {
-                var _userInMysql = await _AtlantisData._Accounts.ToListAsync();
-                type = _userInMysql.Find(x => x.mail == data.mail);
-            }
+            var _userInMysql = await _AtlantisData._Accounts.ToListAsync();
+            type = _userInMysql.Find(x => x.mail == data.mail);
         }
         return type;
     }
@@ -35,18 +31,7 @@ public class AtlantisRepository : IAtlantisData
         var _char = _object as Account;
         await _AtlantisData._Accounts.AddAsync(_char, cancellationToken);
         await _AtlantisData.SaveChangesAsync(cancellationToken);
-        var _userInMemory = await _AtlantisData._Accounts.ToListAsync();
-        var type = _userInMemory.Find(x => x.mail == _char.mail);
-        if (type is not null)
-        {
-            await using (var context = new AtlantisData())
-            {
-                var newUserMySQL = new Account {Id = _char.Id,mail = _char.mail, password = _char.password};
-                context._Accounts.Add(newUserMySQL);
-                _obj = await new AtlantisRepository(_AtlantisData).GetObject(_char,cancellationToken);
-            }
-        }
-
+        _obj = await _AtlantisData._Accounts.FirstOrDefaultAsync(x => x.mail == _char.mail);
         return _obj;
     }
 

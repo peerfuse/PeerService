@@ -1,6 +1,7 @@
-using Atlantis.Login.Models;
-using Microsoft.AspNetCore.Builder;
+using System.Text.Json;
+using Models;
 using Microsoft.AspNetCore.Mvc;
+using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,10 +17,26 @@ var summaries = new[]
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
-app.MapPost("/login", ([FromBody] User user) =>
+app.MapPost("/login", async ([FromBody] User user) =>
 {
-    
+    Console.WriteLine(JsonSerializer.Serialize(user));
+    var rp = await LoginAccount(user);
+    if (rp != null)
+    {
+        return rp;
+    }
+    else
+    {
+        return null;
+    }
 });
+
+async Task<Account> LoginAccount(User user)
+{
+    var rp = new AccountRepository();
+    var ac = await rp.GetObject(user, CancellationToken.None) as Account;
+    return ac;
+}
 
 app.MapGet("/status", () =>
 {

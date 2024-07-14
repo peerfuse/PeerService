@@ -46,6 +46,10 @@
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.57.0, )"
+            },
+            "Grpc.Core.Api": {
+              "target": "Package",
+              "version": "[2.57.0, )"
             }
           },
           "imports": [

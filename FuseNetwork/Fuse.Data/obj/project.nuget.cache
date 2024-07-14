@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cx14QauSWmuyBdGi4n/zey8nMZ95/lqJN/aQ8AzJ4xtYCikOgVFo9njXP2DFi2V90QjMuANidKcOLZdicZeapw==",
+  "dgSpecHash": "ld3lxZsLWLM=",
   "success": true,
   "projectFilePath": "/home/mplopes/Documentos/Github/PeerService/FuseNetwork/Fuse.Data/Fuse.Data.csproj",
   "expectedPackageFiles": [
-    "/home/mplopes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
+    "/home/mplopes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
   ],
   "logs": []
 }

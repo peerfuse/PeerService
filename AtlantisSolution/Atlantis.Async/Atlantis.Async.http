@@ -1,0 +1,6 @@
+@Atlantis.Async_HostAddress = http://localhost:5296
+
+GET {{Atlantis.Async_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

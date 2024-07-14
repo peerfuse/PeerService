@@ -456,7 +456,8 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.6",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 6.4.0"
     ]
   },
   "packageFolders": {
@@ -506,6 +507,10 @@
             "version": "[8.0.6, )"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.4.0, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
             "target": "Package",
             "version": "[6.4.0, )"
           }

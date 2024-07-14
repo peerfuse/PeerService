@@ -1,0 +1,6 @@
+@Occupation.Data_HostAddress = http://localhost:5091
+
+GET {{Occupation.Data_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

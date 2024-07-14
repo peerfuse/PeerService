@@ -1,0 +1,6 @@
+@Atlantis.Network_HostAddress = http://localhost:5150
+
+GET {{Atlantis.Network_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
