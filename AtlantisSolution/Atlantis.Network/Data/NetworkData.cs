@@ -12,6 +12,4 @@ public class NetworkData : DbContext
     public DbSet<Contract> _Contracts { get; set; }
     
     public NetworkData(DbContextOptions<NetworkData> options) : base(options){}
-
-    protected override void OnModelCreating(ModelBuilder builder) => builder.ApplyConfiguration(new NetworkDataConfigurations());
 }

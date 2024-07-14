@@ -15,6 +15,8 @@ public class Contract : IContract
     }
 
     public Guid Id { get; set; }
+    
+    public byte[] previushash { get; set; }
     public byte[] hash { get; set; }
     public Node _firstnode { get; set; }
     public DateTime _dateTime { get; set; }

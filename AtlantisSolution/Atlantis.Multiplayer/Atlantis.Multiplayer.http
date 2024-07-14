@@ -1,0 +1,6 @@
+@Atlantis.Multiplayer_HostAddress = http://localhost:5038
+
+GET {{Atlantis.Multiplayer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

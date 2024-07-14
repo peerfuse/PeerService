@@ -1,0 +1,6 @@
+@Atlantis.Dialogue_HostAddress = http://localhost:5164
+
+GET {{Atlantis.Dialogue_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

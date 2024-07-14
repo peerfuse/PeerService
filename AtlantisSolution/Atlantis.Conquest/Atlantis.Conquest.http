@@ -1,0 +1,6 @@
+@Atlantis.Conquest_HostAddress = http://localhost:5104
+
+GET {{Atlantis.Conquest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

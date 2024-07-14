@@ -221,6 +221,7 @@
             <property name="Type">TextOnly</property>
             <property name="Label" translatable="yes">Confirm</property>
             <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnClikReleased" />
           </widget>
           <packing>
             <property name="X">43</property>

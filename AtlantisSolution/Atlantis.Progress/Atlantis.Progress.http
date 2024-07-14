@@ -1,0 +1,6 @@
+@Atlantis.Progress_HostAddress = http://localhost:5072
+
+GET {{Atlantis.Progress_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@Conquest.Data_HostAddress = http://localhost:5210
+
+GET {{Conquest.Data_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

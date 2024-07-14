@@ -105,6 +105,7 @@ namespace AtlantisLouncher
 			this.DefaultWidth = 421;
 			this.DefaultHeight = 481;
 			this.Show();
+			this.togglebutton1.Clicked += new global::System.EventHandler(this.OnClikReleased);
 		}
 	}
 }
