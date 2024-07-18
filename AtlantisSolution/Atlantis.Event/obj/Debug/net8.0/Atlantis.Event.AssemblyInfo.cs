@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Atlantis.Event")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a39a072095a3868e891cc573bdca28dad4a59e40")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7431ce2120eeadbd7cf0d4149d0aa61c34ea3fbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Atlantis.Event")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Atlantis.Event")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

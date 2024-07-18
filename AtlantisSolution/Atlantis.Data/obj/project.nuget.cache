@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FuNtFFwFMOI=",
+  "dgSpecHash": "65QUbOhm+is=",
   "success": true,
   "projectFilePath": "/home/mplopes/Documentos/Github/PeerService/AtlantisSolution/Atlantis.Data/Atlantis.Data.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "/home/mplopes/.nuget/packages/microsoft.entityframeworkcore.sqlite/8.0.0/microsoft.entityframeworkcore.sqlite.8.0.0.nupkg.sha512",
     "/home/mplopes/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/8.0.0/microsoft.entityframeworkcore.sqlite.core.8.0.0.nupkg.sha512",
     "/home/mplopes/.nuget/packages/microsoft.entityframeworkcore.sqlite.design/2.0.0-preview1-final/microsoft.entityframeworkcore.sqlite.design.2.0.0-preview1-final.nupkg.sha512",
+    "/home/mplopes/.nuget/packages/microsoft.entityframeworkcore.tools/8.0.0/microsoft.entityframeworkcore.tools.8.0.0.nupkg.sha512",
     "/home/mplopes/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/mplopes/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/home/mplopes/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",

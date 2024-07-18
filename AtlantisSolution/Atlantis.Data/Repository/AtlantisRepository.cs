@@ -1,5 +1,5 @@
 using Data;
-using Atlantis.Data.Interfaces;
+using Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Models;
 

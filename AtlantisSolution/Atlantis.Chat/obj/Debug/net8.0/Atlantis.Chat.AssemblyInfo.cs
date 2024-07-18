@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Atlantis.Chat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6c12779a2dab5d35c0228fd1cfa6aeecf65405b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7431ce2120eeadbd7cf0d4149d0aa61c34ea3fbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Atlantis.Chat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Atlantis.Chat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
