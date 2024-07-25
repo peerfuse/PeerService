@@ -26,7 +26,6 @@ app.MapPost("/register", async ([FromBody] User user) =>
     {
         return null;
     }
-    
 });
 
 async Task<Account> RegisterAccount(User user)
@@ -34,20 +33,26 @@ async Task<Account> RegisterAccount(User user)
     var rp = new AccountRepository();
     var ac = await rp.SendObject(new User(user.mail, ComputeSha256Hash(user.password)), CancellationToken.None) as Account;
     return ac;
+
 }
 
 string ComputeSha256Hash(string rawData)
 {
-    using (SHA256 sha256Hash = SHA256.Create())
+    string p = "";
+    for (int i = 0; i < rawData.Length; i++)
     {
-        byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(rawData));
-        StringBuilder builder = new StringBuilder();
-        for (int i = 0; i < bytes.Length; i++)
+        using (MD5 md5Hash = MD5.Create())
         {
-            builder.Append(bytes[i].ToString("x2"));
+            byte[] bytes = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(rawData[i].ToString()));
+            StringBuilder builder = new StringBuilder();
+            for (int x = 0; x < bytes.Length; x++)
+            {
+                builder.Append(bytes[x].ToString("x2"));
+            }
+            p += builder.ToString();
         }
-        return builder.ToString();
     }
+    return p;
 }
 
 app.MapGet("/status", () =>

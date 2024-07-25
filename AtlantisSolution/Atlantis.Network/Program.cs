@@ -11,9 +11,6 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 CreateHostBuilder(args).Build().Run();
-
-// Configure the HTTP request pipeline.
-
 app.Run();
 
 static IHostBuilder CreateHostBuilder(string[] args) =>

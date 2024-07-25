@@ -6,9 +6,6 @@ using AtlantisLouncher.Core;
 using System.Text.Json;
 using System.Text;
 using AtlantisLouncher.Wins;
-using AtlantisLouncher.Data;
-using AtlantisLouncher.Repository;
-using Microsoft.EntityFrameworkCore;
 
 public partial class MainWindow : Window
 {
@@ -67,14 +64,8 @@ public partial class MainWindow : Window
                         MessageWind w = new MessageWind();
                         w.Show();
                         w.Message("Login Realizado Com Sucesso !");
-                        entry2.Visible = false;
-                        entry3.Visible = false;
                         label3.Text = obj.uid;
                         label4.Text = DateTime.Now.ToString();
-                        button2.Visible = false;
-                        button3.Visible = false;
-                        //var _pokerData = new AtlantsDbContext(new DbContextOptionsBuilder<UserData>().UseInMemoryDatabase(obj.uid).Options); ;
-                        //var repo = new AtlantsRepository(_pokerData);
                     }
                 }
                 catch (Exception ex)

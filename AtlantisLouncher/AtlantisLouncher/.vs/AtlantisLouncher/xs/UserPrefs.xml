@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{B7547BFF-26C1-4A98-B2A4-406BBB169AAE}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RegisterWindow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/UserData.cs">
     <Files>
-      <File FileName="MainWindow.cs" Line="35" Column="9" />
-      <File FileName="RegisterWindow.cs" Line="12" Column="25" />
+      <File FileName="MainWindow.cs" Line="49" Column="65" />
+      <File FileName="Core/UserData.cs" Line="6" Column="30" />
+      <File FileName="Core/User.cs" Line="7" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AtlantisLouncher" expanded="True">
             <Node name="AtlantisLouncher" expanded="True">
-              <Node name="Wins" expanded="True" />
-              <Node name="RegisterWindow.cs" selected="True" />
+              <Node name="Core" expanded="True">
+                <Node name="UserData.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

@@ -37,8 +37,8 @@ async Task<Account> GetAccount(User user)
 
 app.MapPost("/Register", async ([FromBody] User user) =>
 {
-    Console.WriteLine(JsonSerializer.Serialize(user));
-    var rp = await RegisterAccount(new Account(Guid.NewGuid().ToString().Substring(0, 13), user.mail, user.password));
+    Console.WriteLine($"register Account >> {user.Mail} >> {DateTime.Now}");
+    var rp = await RegisterAccount(new Account(Guid.NewGuid().ToString(), user.Mail, user.Password));
     return rp;
 });
 

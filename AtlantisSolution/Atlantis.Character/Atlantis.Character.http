@@ -1,4 +1,4 @@
-@Atlantis.Character_HostAddress = http://localhost:5012
+@Atlantis.Character_HostAddress = http://localhost:5100
 
 GET {{Atlantis.Character_HostAddress}}/weatherforecast/
 Accept: application/json

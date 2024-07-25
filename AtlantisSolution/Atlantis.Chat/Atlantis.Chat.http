@@ -1,6 +1,7 @@
-@Atlantis.Chat_HostAddress = http://localhost:5204
+@Atlantis.Chat_HostAddress = http://localhost:7200
 
 GET {{Atlantis.Chat_HostAddress}}/weatherforecast/
 Accept: application/json
+
 
 ###

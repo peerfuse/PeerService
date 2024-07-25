@@ -3,12 +3,12 @@ namespace Models;
 public class User
 {
     public User(){}
-    public string mail { get; set; }
-    public string password { get; set; }
+    public string Mail { get; set; }
+    public string Password { get; set; }
 
-    public User(string mail, string password)
+    public User(string _mail, string _password)
     {
-        this.mail = mail;
-        this.password = password;
+        this.Mail = _mail;
+        this.Password = _password;
     }
 }

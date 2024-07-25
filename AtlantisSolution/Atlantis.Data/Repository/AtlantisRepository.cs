@@ -20,7 +20,7 @@ public class AtlantisRepository : IAtlantisData
         await using (var context = new AtlantisData())
         {
             var _userInMysql = await _AtlantisData._Accounts.ToListAsync();
-            type = _userInMysql.Find(x => x.mail == data.mail);
+            type = _userInMysql.Find(x => x.mail == data.Mail);
         }
         return type;
     }

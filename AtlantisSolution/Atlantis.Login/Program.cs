@@ -1,4 +1,5 @@
-using System.Text.Json;
+using System.Security.Cryptography;
+using System.Text;
 using Models;
 using Microsoft.AspNetCore.Mvc;
 using Repository;
@@ -19,7 +20,6 @@ var summaries = new[]
 
 app.MapPost("/login", async ([FromBody] User user) =>
 {
-    Console.WriteLine(JsonSerializer.Serialize(user));
     var rp = await LoginAccount(user);
     if (rp != null)
     {
@@ -31,11 +31,22 @@ app.MapPost("/login", async ([FromBody] User user) =>
     }
 });
 
-async Task<Account> LoginAccount(User user)
+async Task<UserData> LoginAccount(User user)
 {
     var rp = new AccountRepository();
     var ac = await rp.GetObject(user, CancellationToken.None) as Account;
-    return ac;
+    if(ac == null) return new UserData(Guid.NewGuid().ToString(),404, null);
+    var c = GetAccount(ac, user);
+    if (c == null)
+    {
+        return new UserData(ac.id, 401, null);
+    }
+    else
+    {
+       return c;
+    }
+
+    
 }
 
 app.MapGet("/status", () =>
@@ -43,24 +54,34 @@ app.MapGet("/status", () =>
     return $" Login Service in Running : {DateTime.Now}";
 });
 
-app.MapGet("/weatherforecast", () =>
+UserData GetAccount(Account? account, User user)
+{
+    var pass = ComputeSha256Hash(user.password);
+    for (int i = 0; i < account.password.Length; i++)
     {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
-    })
-    .WithName("GetWeatherForecast")
-    .WithOpenApi();
+        if (pass[i] != account.password[i]) return null;
+    }
+    return new UserData(account.id,200,new User(account.mail, account.password));
+}
+
+
+string ComputeSha256Hash(string rawData)
+{
+    string p = "";
+    for (int i = 0; i < rawData.Length; i++)
+    {
+        using (MD5 md5Hash = MD5.Create())
+        {
+            byte[] bytes = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(rawData[i].ToString()));
+            StringBuilder builder = new StringBuilder();
+            for (int x = 0; x < bytes.Length; x++)
+            {
+                builder.Append(bytes[x].ToString("x2"));
+            }
+            p += builder.ToString();
+        }
+    }
+    return p;
+}
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int) (TemperatureC / 0.5556);
-}

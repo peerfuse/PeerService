@@ -22,3 +22,11 @@
       dockerfile: Atlantis.Register/Dockerfile
     ports:
       - 8080:80
+  
+  atlantis.chat:
+    image: atlantis.chat
+    build:
+      context: .
+      dockerfile: Atlantis.Chat/Dockerfile
+    ports:
+      - 7200:80

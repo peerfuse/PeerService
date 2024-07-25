@@ -7,10 +7,10 @@ public class Account
     public string mail { get; set; }
     public string password { get; set; }
 
-    public Account(string id, string mail, string password)
+    public Account(string _id, string _mail, string _password)
     {
-        this.id = id;
-        this.mail = mail;
-        this.password = password;
+        this.id = _id;
+        this.mail = _mail;
+        this.password = _password;
     }
 }

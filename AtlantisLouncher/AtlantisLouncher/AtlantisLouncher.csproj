@@ -151,22 +151,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterWindow.cs" />
     <Compile Include="gtk-gui\AtlantisLouncher.RegisterWindow.cs" />
-    <Compile Include="Data\AtlantsDbContext.cs" />
-    <Compile Include="Repository\AtlantsRepository.cs" />
     <Compile Include="Interfaces\IAtlantsRepository.cs" />
     <Compile Include="Core\User.cs" />
     <Compile Include="Core\UserData.cs" />
     <Compile Include="Exceptions\NotFoundException.cs" />
     <Compile Include="Exceptions\ApplicationException.cs" />
-    <Compile Include="Data\AtlantsDbConfigurations.cs" />
     <Compile Include="Wins\MessageWind.cs" />
     <Compile Include="gtk-gui\AtlantisLouncher.Wins.MessageWind.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="PokerData.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\" />
-    <Folder Include="Repository\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Core\" />
     <Folder Include="Exceptions\" />

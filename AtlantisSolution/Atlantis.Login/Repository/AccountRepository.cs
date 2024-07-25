@@ -11,7 +11,7 @@ public class AccountRepository : IAccountRepository
     {
         object? _obj = null;
         var _char = _object as User;
-        string url = $"http://194.113.64.33:5000/login/{_char.mail}";
+        string url = $"http://10.0.0.155:5000/login/{_char.mail}";
 
         using (HttpClientHandler handler = new HttpClientHandler())
         {
@@ -25,7 +25,6 @@ public class AccountRepository : IAccountRepository
                     HttpResponseMessage response = await client.GetAsync(url);
                     response.EnsureSuccessStatusCode();
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    Console.WriteLine($"ResponseBody >> {responseBody}");
                     Account obj = JsonSerializer.Deserialize<Account>(responseBody);
                     return obj!;
                 }
