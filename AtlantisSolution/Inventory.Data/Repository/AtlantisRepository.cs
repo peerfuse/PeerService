@@ -1,9 +1,14 @@
+using Data;
 using Interfaces;
 
-namespace Progress.Data.Repository;
+namespace Repository;
 
 public class AtlantisRepository : IAtlantisData
 {
+    public InventoryDBContext _AtlantisData { get; set; }
+
+    public AtlantisRepository(InventoryDBContext _context)
+        => _AtlantisData = _context;
     public Task<object?> GetObject(object _object, CancellationToken cancellationToken)
     {
         return null;

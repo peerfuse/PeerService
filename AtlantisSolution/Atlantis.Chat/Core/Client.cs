@@ -10,7 +10,6 @@ namespace Atlantis.Chat.Core;
 public class Client : ClientDao, IPlayer
 {
     public Client(){}
-
     public string? UserID { get; set; }
     public WebSocket? socket { get; set; }
     public async void SendMessage(Msg msg)

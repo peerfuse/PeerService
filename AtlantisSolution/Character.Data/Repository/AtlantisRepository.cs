@@ -1,17 +1,31 @@
+using Data;
 using Interfaces;
+using Models;
 
 namespace Progress.Data.Repository;
 
 public class AtlantisRepository : IAtlantisData
 {
-    public Task<object?> GetObject(object _object, CancellationToken cancellationToken)
+    
+    public CharacterDBContext _AtlantisData { get; set; }
+
+    public AtlantisRepository(CharacterDBContext _context)
+        => _AtlantisData = _context;
+    
+    public async Task<object?> GetObject(object _object, CancellationToken cancellationToken)
     {
-        return null;
+        var ch = _AtlantisData._Characters.FirstOrDefault(x => x.Id == _object);
+        return ch;
+        
     }
 
-    public Task<object> InsetObject(object _object, CancellationToken cancellationToken)
+    public async Task<object?> InsetObject(object _object, CancellationToken cancellationToken)
     {
-        return null;
+        var c = _object as Character;
+        await _AtlantisData._Characters.AddRangeAsync(c);
+        await _AtlantisData.SaveChangesAsync(cancellationToken);
+        var ch = _AtlantisData._Characters.FirstOrDefault(x => x.Id == c.Id);
+        return ch;
     }
 
     public Task<object> UpdateObject(object _object, CancellationToken cancellationToken)

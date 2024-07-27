@@ -20,12 +20,6 @@ public class Startup
         {
             app.UseDeveloperExceptionPage();
         }
-        
-        var summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
         app.UseRouting();
 
         app.UseWebSockets();

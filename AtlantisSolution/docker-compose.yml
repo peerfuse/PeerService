@@ -30,3 +30,51 @@
       dockerfile: Atlantis.Chat/Dockerfile
     ports:
       - 7200:80
+
+  atlantis.inventory:
+    image: atlantis.inventory
+    build:
+      context: .
+      dockerfile: Atlantis.Inventory/Dockerfile
+    ports:
+      - 7250:80
+
+  inventory.data:
+    image: inventory.data
+    build:
+      context: .
+      dockerfile: Inventory.Data/Dockerfile
+    ports:
+      - 5250:80
+
+  atlantis.items:
+    image: atlantis.items
+    build:
+      context: .
+      dockerfile: Atlantis.Items/Dockerfile
+    ports:
+      - 7100:80
+
+  items.data:
+    image: items.data
+    build:
+      context: .
+      dockerfile: Items.Data/Dockerfile
+    ports:
+      - 5100:80
+
+  character.data:
+    image: character.data
+    build:
+      context: .
+      dockerfile: Character.Data/Dockerfile
+    ports:
+      - 5200:80
+
+  atlantis.character:
+    image: atlantis.character
+    build:
+      context: .
+      dockerfile: Atlantis.Character/Dockerfile
+    ports:
+      - 7200:80
